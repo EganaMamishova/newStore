@@ -4851,4 +4851,9 @@ input.form-control, select.form-control {
     -webkit-line-clamp: 2;
 
 }
-.menu-2
+.menu-2{
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
