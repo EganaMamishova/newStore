@@ -1356,6 +1356,7 @@ nav.m-style3 {
 
 .feature-content {
     margin-left: 18px;
+    
 }
 
 .feature-content h4 {
@@ -1364,11 +1365,21 @@ nav.m-style3 {
     line-height: 20px;
     margin-bottom: 5px;
     text-transform: capitalize;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+
 }
 
 .feature-content p {
     font-size: 13px;
     line-height: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+
 }
 
 /* -----features area css end----- */
@@ -1629,6 +1640,11 @@ nav.m-style3 {
     font-weight: 400;
     line-height: 20px;
     text-transform: uppercase;
+    
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
 }
 
 .product-name h4 {
@@ -4822,3 +4838,17 @@ input.form-control, select.form-control {
 .footer-bottom{
     background:#f0f0f0 ;
 }
+.manufacture-product{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+}
+.product-name{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+
+}
+.menu-2
